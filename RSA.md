@@ -34,7 +34,7 @@ msg=2077392566271692732069336377947261
 
 to decode the message, we need d
 
-calculate d = e^-1 % (p-1)*(q-1) ==> $e{-1} \bmod (p-1)*(q-1)$
+calculate d = e^-1 % (p-1)\*(q-1) ==> $e{-1} \bmod (p-1)\*(q-1)$
 
 how get q and p if you know n 
 
