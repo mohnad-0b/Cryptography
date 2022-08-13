@@ -7,8 +7,8 @@ $x \equiv an \mod nn$
 
 How to find $x$?        
 first rember wht the mean of `Congruence` is:       
-if ($a \equiv b \mod n$) then         
-($a \mod n$) ==>  ($b \mod n$)
+if ( $a \equiv b \mod n$ ) then         
+( $a \mod n$ ) ==>  ( $b \mod n$ )
 
 this mean $a \equiv b \mod n$ is a congruence.
 
@@ -40,7 +40,7 @@ $x$ in third equation &rarr; 2,8,14...
 we need just value avaliable in all equation So :
 
 in first equation 11 is avaliable in second equation  
-($3 \mod 4 = 3$) and ($7 \mod 4 = 3$) and ($5 \mod 6 = 5$) and ($11 \mod 6 = 5$)
+( $3 \mod 4 = 3$ ) and ( $7 \mod 4 = 3$ ) and ( $5 \mod 6 = 5$ ) and ( $11 \mod 6 = 5$ )
 
 so now $x = 11$ so what is $x \equiv 2 \mod 5$ ? 
 
