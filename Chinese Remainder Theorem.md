@@ -44,7 +44,7 @@ in first equation 11 is avaliable in second equation
 
 so now $x = 11$ so what is $x \equiv 2 \mod 5$ ? 
 
-$x = 5,11,17,23,29,35,41,47  \rarr (47)$ 
+$x = 5,11,17,23,29,35,41,47$  &rarr; (47)
 
 So :
 
