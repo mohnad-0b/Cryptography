@@ -66,4 +66,14 @@ Output:
 ```
 b'flag{RSA_test}'
 ```
+> you can use code below extract the data from the keys 
 
+```python
+from Crypto.PublicKey import RSA 
+
+f = open('public.pem','r')
+key = RSA.importKey(f.read())
+print(key.n)
+print(key.e)
+```
+or [this](https://lapo.it/asn1js/)
