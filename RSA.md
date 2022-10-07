@@ -77,3 +77,14 @@ print(key.n)
 print(key.e)
 ```
 or [this](https://lapo.it/asn1js/)
+
+**Common modulus attacker**
+
+if c1 and c2 have same N and gcd(e1,e2) == 1 so:                 
+$e1\*u + e2\*v = 1$
+
+$c1 = m^(e1\*u)$                                   
+$c2 = m^(e2\*v)$
+
+$c1\*c2 == m^(e1\*u) \* m^(e2\*v) $ &rarr; $m^1 = m$
+
