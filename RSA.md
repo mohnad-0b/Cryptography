@@ -38,7 +38,7 @@ calculate d = e^-1 % (p-1)\*(q-1) &harr; $e{-1} \bmod (p-1)\*(q-1)$
 
 how get q and p if you know n 
 
-use [factorDB](http://www.factordb.com/index.php) But this does not work if the size of p and q are large enough and made the right way like use `getPrime`
+use [factorDB](http://www.factordb.com/index.php) or [factorization](https://www.alpertron.com.ar/ECM.HTM) But this does not work if the size of p and q are large enough and made the right way like use `getPrime`
 
 after get p and q, we can calculate d
 
@@ -77,14 +77,25 @@ print(key.n)
 print(key.e)
 ```
 or [this](https://lapo.it/asn1js/)
+
+Sometimes `n` can consist of more than two prime numbers, so the decoding code is as follows :
+
+```python
+# p [p1,p2,p3,...]
+phi=1
+for i in p:
+    phi *= (i-1)
+```
+
 ---
 ## **Common modulus attacker**
 
 if c1 and c2 have same N and gcd(e1,e2) == 1 so:                 
 $e1\*u + e2\*v = 1$
 
-$c1 = m^(e1\*u)$                                   
-$c2 = m^(e2\*v)$
+$c1 = m^{(e1\*u)}$                                   
+$c2 = m^{(e2\*v)}$
 
-$c1\*c2 == m^(e1\*u) \* m^(e2\*v)$ &rarr; $m^1 = m$
+$c1\*c2 == m^{(e1\*u)} \* m^{(e2\*v)}$ &rarr; $m^1 = m$
+
 
